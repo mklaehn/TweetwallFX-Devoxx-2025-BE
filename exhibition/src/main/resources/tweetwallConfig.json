@@ -87,14 +87,6 @@
                 }
             },
             {
-                "stepClassName": "org.tweetwallfx.stepengine.steps.PauseStep",
-                "config": {
-                    "amount": "15",
-                    "unit": "SECONDS",
-                    "skipWhenSkipped": "TopRatedToday"
-                }
-            },
-            {
                 "stepClassName": "org.tweetwallfx.controls.steps.NodeFadeOutStep",
                 "config": {
                     "nodeSelector": "#topRatedeNode"
